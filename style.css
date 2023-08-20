@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about_us_wrap {
+    font-family: Montserrat, sans-serif;
+
+}
+
+.about_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+/*about_section*/
+.about_us_wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.about_photo {
+    max-width: 70%;
+}
+
+.about_wrap {
+    max-width: 30%;
+    margin-bottom: 45px;
+}
+
+.about_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-bottom: 32px;
+}
+
+.about_box {
+    max-width: 100%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.about_img {
+    max-width: 100%;
+}
+
+.about_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.about_list {
+    margin: 0 0 10px 10px;
+    padding-left: 20px;
+    overflow: inherit;
+}
+
+.about_item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.about_word {
+    color: #FFA028;
+}
+
+/*card_section*/
+.card_wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.card_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-bottom: 26px;
+}
+
+.us_card_wrap {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.us_card_box {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.price_card {
+    max-width: 100%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 42px 39px;
+    margin-bottom: 26px;
+}
+
+.journey_card {
+    max-width: 100%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 42px 39px;
+}
+
+.way_card {
+    max-width: 50%;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.way_wrapper {
+    padding: 42px 39px 0 39px;
+}
+
+.icon_subtitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.icon_us {
+    max-width: 100%;
+    margin-right: 24px;
+}
+
+.subtitle_us {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.us_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.us_text_top {
+    margin-bottom: 16px;
+}
+
+.card_img {
+    max-width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 0px 0px 30px 30px;
+}
+
+/*Kavkaz*/
+.step_wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.step_wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+
+.step_box {
+    max-width: 50%;
+}
+
+.step_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.step_inner {
+    align-items: center;
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.step_icon {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.step_desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.step_link {
+    color: #FFA028;
+}
+
+.photo_wrap {
+    max-width: 50%;
+}
+
+.step_photo {
+    max-width: 100%;
+}
+
+/*section_welcome*/
+.welcome_wrap {
+    background-image: url(img/blue\ mount.png);
+    background-size: cover;
+    min-height: 220px;
+    margin-bottom: 74px;
+}
+
+.welcome_box {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.welcome_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 44px;
+    margin-bottom: 16px;
+}
+
+.welcome_lead {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.welcome_star {
+    display: flex;
+    justify-content: center;
+
+}
+
+.star_img {
+    max-width: 116px;
+}
+
+/*questions section*/
+.quest_wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.quest_title_box {
+    max-width: 270px;
+}
+
+.quest_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.quest_list_box {
+    max-width: 850px;
+}
+
+.quest_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quest_lead {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    cursor: pointer;
+
+    padding: 17px;
+    background: #FFA028;
+    color: #000000;
+    width: 100%;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.quest_icon {
+    max-width: 100%;
+}
+
+.questContent {
+    max-width: 655px;
+    padding-right: 139px;
+}
+
+.quest_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.questItembox {
+    margin-bottom: 21px;
+}
+
+.close .questContent {
+    height: 0px;
+    transition: height 1s ease-out;
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    float: left;
+    display: block;
+}
+
+.open .quest_lead {
+    margin: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #FFBE6A;
+    color: #444444;
+}
+
+/*media*/
+@media (max-width: 1050px) {
+    .about_us_wrapper {
+        max-width: 1024px;
+        padding: 0 5px;
+    }
+
+    .about_text {
+        margin-bottom: 0;
+    }
+
+    .step_box {
+        max-width: 463px;
+    }
+
+    .about_wrap {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about_us_wrapper {
+        max-width: 768px;
+        padding: 0 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about_photo {
+        max-width: 100%;
+    }
+
+    .about_box {
+        margin-right: 0;
+    }
+
+    .about_wrap {
+        max-width: 100%;
+    }
+
+    .about_text {
+        margin-bottom: 10px;
+    }
+
+    .about_title {
+        text-align: center;
+    }
+
+    .card_img {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .step_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .step_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photo_wrap,
+    .step_box {
+        max-width: 100%;
+    }
+
+    .step_desc {
+        max-width: 520px;
+    }
+
+    .card_title {
+        justify-content: center;
+    }
+
+    .card_title {
+        text-align: center;
+    }
+
+    .quest_wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .quest_title_box {
+        margin-bottom: 45px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .about_us_wrapper {
+        max-width: 425px;
+        padding: 0 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .us_card_wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .us_card_box,
+    .way_card {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
